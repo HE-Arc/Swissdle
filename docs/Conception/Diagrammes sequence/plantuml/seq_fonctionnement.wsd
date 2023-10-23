@@ -1,0 +1,21 @@
+@startuml Swissdle
+title "Fonctionnement Swissdle"
+
+participant "Frontend" as fe
+participant "Backend" as be
+
+activate fe
+activate be
+fe -> be : get current city image
+
+loop While guess not correct
+    fe -> be : guess a city
+    be -> be : get current city
+    be -> be : compare id
+    alt guessed id != city id
+        be -> be : get guessed city by id
+        be -> be : compare cities objects
+        be -> fe : return compared objects
+    end
+end
+@enduml

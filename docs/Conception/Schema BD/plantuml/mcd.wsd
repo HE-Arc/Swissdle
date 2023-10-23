@@ -1,0 +1,38 @@
+@startuml MCD BouerobCinema
+
+hide circle
+
+skinparam linetype ortho
+
+entity "Ville" as v {
+    *id : number <<generated>>
+    --
+    *name : text
+    *img : text  
+    *ecusson : text 
+    *population : number
+    *coord : varchar 
+}
+
+entity "Canton" as c {
+    *id : number <<generated>>
+    --
+    *name : text
+    *img : text
+}
+
+entity "Langue" as l {
+    *id : number <<generated>>
+    --
+    *name : text
+}
+
+entity "Cycle" {
+    *shuffledList : varchar
+    *index : number
+    *count : number
+} 
+
+v ||--|{ c
+v }|--o{ l
+

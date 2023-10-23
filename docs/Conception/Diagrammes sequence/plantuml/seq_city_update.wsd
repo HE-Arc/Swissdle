@@ -1,0 +1,25 @@
+@startuml Swissdle
+title "Choix de la ville"
+
+participant "Backend" as be
+
+activate be
+loop every day at midnight
+    be -> be : get Cycle
+
+    alt !Cycle
+        be -> be : generate Cycle
+    end
+
+    be -> be : increment Cycle index
+
+    alt index > shuffledList
+        be -> be : generate new Cycle
+        be -> be : index = 0
+    end 
+
+    be -> be : set daily City id
+end
+
+deactivate be
+@enduml

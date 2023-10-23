@@ -1,0 +1,46 @@
+@startuml MCD BouerobCinema
+
+hide circle
+
+skinparam linetype ortho
+
+entity "Ville" as v {
+    *id : int(11) <<generated>> <<PK>>
+    --
+    *name : varchar(255)
+    *img : varchar(255)
+    *ecusson : varchar(255)
+    *population : int(11)
+    *coord : varchar(255)
+    *canton_id : int(11) <<FK>>
+}
+
+entity "Canton" as c {
+    *id : int(11) <<generated>> <<PK>>
+    --
+    *name : varchar(255)
+    *img : varchar(255)
+}
+
+entity "Langue" as l {
+    *id : int(11) <<generated>> <<PK>>
+    --
+    *name : varchar(255)
+}
+
+entity "Ville_Langue" as ville_langue {
+    *id : int(11) <<generated>> <<PK>>
+    --
+    *langue_id : int(11) <<FK>>
+    *ville_id : int(11) <<FK>>
+}
+
+entity "Cycle" {
+    *shuffledList : CLOB
+    *index : number(11)
+    *count : number(11)
+}
+
+v --> c
+ville_langue --> l
+ville_langue --> v
