@@ -1,0 +1,21 @@
+name: Deploy to Container
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Deploy to Container
+      run: |
+        ssh -i ${{ secrets.SECRET_PRIVATE_SSH }} -p ${{ secrets.SECRET_PORT }} ${{ secrets.SECRET_SERVER }} "cd /project/swissdle && git pull origin main"
+      env:
+        SECRET_PORT: ${{ secrets.SECRET_PORT }}
+        SECRET_PRIVATE_SSH: ${{ secrets.SECRET_PRIVATE_SSH }}
