@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('langues_villes', function (Blueprint $table) {
 
-            $table->unsignedBigInteger('author_id');
-            $table->unsignedBigInteger('book_id');
-            
-            $table->primary(['author_id', 'book_id']);
+            $table->unsignedBigInteger('langue_id');
+            $table->unsignedBigInteger('ville_id');
+
+            $table->primary(['langue_id', 'ville_id']);
 
             $table->timestamps();
         });

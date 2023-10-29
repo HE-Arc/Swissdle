@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::table('langues_villes', function (Blueprint $table) {
 
-            $table->foreignId('langue_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('ville_id')->constrained()->cascadeOnDelete();
+            $table->foreign('langue_id')->references('id')->on('langues')->cascadeOnDelete();
+            $table->foreign('ville_id')->references('id')->on('villes')->cascadeOnDelete();
         });
     }
 
