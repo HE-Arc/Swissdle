@@ -1,0 +1,65 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Swissdle API",
+        "description": "Endpoints pour l'appli Swissdle",
+        "contact": {
+            "name": "bruno.thomas@he-arc.ch"
+        },
+        "version": "1.0"
+    },
+    "paths": {
+        "/api/ville/today": {
+            "get": {
+                "tags": [
+                    "Ville"
+                ],
+                "summary": "Get the current city of the day",
+                "description": "Retrieve information about the current city.",
+                "operationId": "getToday",
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Ville"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Ville not found"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Ville": {
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "img": {
+                        "type": "string"
+                    },
+                    "ecusson": {
+                        "type": "string"
+                    },
+                    "population": {
+                        "type": "integer"
+                    },
+                    "coord": {
+                        "type": "string"
+                    },
+                    "canton_id": {
+                        "type": "integer"
+                    }
+                },
+                "type": "object"
+            }
+        }
+    }
+}
