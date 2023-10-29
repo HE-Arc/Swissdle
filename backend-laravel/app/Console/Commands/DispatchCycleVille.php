@@ -20,7 +20,7 @@ class DispatchCycleVille extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Dispath the cycle ville job';
 
     /**
      * Execute the console command.
