@@ -7,5 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cycle extends Model
 {
+
+    protected $fillable = [
+        'shuffledList',
+        'index',
+        'count'
+    ];
+
     use HasFactory;
 }

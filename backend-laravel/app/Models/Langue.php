@@ -8,4 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Langue extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'name'
+    ];
+
+    public function villes()
+    {
+        return $this->belongsToMany(Ville::class);
+    }
 }
