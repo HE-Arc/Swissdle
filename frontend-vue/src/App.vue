@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <h1>Swissdle</h1>
+    <p>Guess the City!</p>
     <DailyCity></DailyCity>
+
   </div>
 </template>
 

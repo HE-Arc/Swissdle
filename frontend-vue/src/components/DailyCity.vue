@@ -34,8 +34,8 @@ export default {
 </script>
 <style scoped>
 img {
-    width: 80%;
-    height: 70%;
+    width: 70%;
+    height: 65vh;
     object-fit: cover;
 }
 </style>
