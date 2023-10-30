@@ -11,14 +11,13 @@ export default {
     data() {
         return {
             imgDailyCity: "",
-            apiBaseUrl: "http://localhost/api/",
-            apiGetDailyCity: "ville/today"
+            apiGetDailyCity: "/api/ville/today"
         };
     },
     methods: {
         getCity() {
             try {
-                axios.get(this.apiBaseUrl + this.apiGetDailyCity).then((response) => {
+                axios.get(window.location.origin.replace(/:\d+$/, '') + this.apiGetDailyCity).then((response) => {
                     (this.imgDailyCity = response.data.img)
                 })
             } catch (err) {
