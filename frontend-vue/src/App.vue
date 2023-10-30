@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Swissdle"/>
+  <DailyCity></DailyCity>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import DailyCity from './components/DailyCity.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    DailyCity
   }
 }
 </script>
