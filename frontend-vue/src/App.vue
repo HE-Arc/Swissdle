@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Swissdle"/>
-  <DailyCity></DailyCity>
+  <div class="container">
+    <h1>Swissdle</h1>
+    <DailyCity></DailyCity>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import DailyCity from './components/DailyCity.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     DailyCity
   }
 }
