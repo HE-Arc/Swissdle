@@ -23,8 +23,8 @@ jobs:
         echo "${{ secrets.SECRET_PRIVATE_SSH }}" > p.key
         mkdir -p ~/.ssh
         touch ~/.ssh/known_hosts
-        echo "${{ secrets.SECRET_PUB }}" > ~/.ssh/known_hosts
-        ssh -i ./p.key -p ${{ secrets.SECRET_PORT }} ${{ secrets.SECRET_SERVER }} "cd /project/Swissdle 
+        ssh-keyscan ${{ secrets.SECRET_HOST }} >> ~/.ssh/known_hosts
+        ssh -i ./p.key -p ${{ secrets.SECRET_PORT }} ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} "cd /project/Swissdle 
         && git pull origin main 
         && cd backend-laravel && composer install
         && cd ../frontend-vue && npm install && npm run build"
