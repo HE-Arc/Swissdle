@@ -16,9 +16,7 @@ jobs:
     - name: Deploy to Container
       env:
         SECRET_PORT: ${{ secrets.SECRET_PORT }}
-        SECRET_PRIVATE_SSH: ${{ secrets.SECRET_PRIVATE_SSH }}
-        SECRET_SERVER: ${{ secrets.SECRET_SERVER }}
-        
+        SECRET_PRIVATE_SSH: ${{ secrets.SECRET_PRIVATE_SSH }}        
       run: |
         echo "${{ secrets.SECRET_PRIVATE_SSH }}" > p.key
         mkdir -p ~/.ssh
