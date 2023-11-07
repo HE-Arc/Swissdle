@@ -20,7 +20,7 @@ jobs:
         SECRET_SERVER: ${{ secrets.SECRET_SERVER }}
       run: |
         echo "${{ secrets.SECRET_PRIVATE_SSH }}" > p.key
-        && ssh -i ./p.key -p ${{ secrets.SECRET_PORT }} ${{ secrets.SECRET_SERVER }} "cd /project/Swissdle 
+        ssh -i ./p.key -p ${{ secrets.SECRET_PORT }} ${{ secrets.SECRET_SERVER }} "cd /project/Swissdle 
         && git pull origin main 
         && cd backend-laravel && composer install
         && cd ../frontend-vue && npm install && npm run build"
