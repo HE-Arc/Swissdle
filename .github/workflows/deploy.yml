@@ -19,4 +19,4 @@ jobs:
         touch ~/.ssh/known_hosts
         echo ${{ secrets.SECRET_PUB }} >> ~/.ssh/known_hosts
         eval "$(ssh-agent -s)"
-        ssh-add ${{ secrets.SECRET_PRIVATE_SSH }}
+        ssh-add "${{ secrets.SECRET_PRIVATE_SSH }}"
