@@ -17,6 +17,8 @@ jobs:
       run: |
         mkdir ~/.ssh
         touch ~/.ssh/known_hosts
+        touch ~/.ssh/pkey
         echo ${{ secrets.SECRET_PUB }} >> ~/.ssh/known_hosts
+        echo ${{ secrets.SECRET_PRIVATE_SSH }} > ~/.ssh/pkey
         eval "$(ssh-agent -s)"
-        ssh-add "${{ secrets.SECRET_PRIVATE_SSH }}"
+        ssh-add ~/.ssh/pkey
