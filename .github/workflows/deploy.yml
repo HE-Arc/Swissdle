@@ -18,5 +18,3 @@ jobs:
         mkdir ~/.ssh
         touch ~/.ssh/known_hosts
         ssh-keyscan ${{ secrets.SECRET_HOST }} >> ~/.ssh/known_hosts
-        eval "$(ssh-agent -s)"
-        ssh-add ${{ secrets.SECRET_PRIVATE_SSH }}
