@@ -20,5 +20,6 @@ jobs:
         touch ~/.ssh/pkey
         echo "${{ secrets.SECRET_PUB }}" >> ~/.ssh/known_hosts
         echo "${{ secrets.SECRET_PRIVATE_SSH }}" > ~/.ssh/pkey
+        chmod 600 ~/.ssh/pkey
         eval "$(ssh-agent -s)"
         ssh-add ~/.ssh/pkey
