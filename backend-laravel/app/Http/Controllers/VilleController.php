@@ -41,4 +41,9 @@ class VilleController extends Controller
 
         return $ville;
     }
+
+    public function all()
+    {
+
+    }
 }
