@@ -23,4 +23,4 @@ jobs:
         chmod 600 ~/.ssh/pkey
         eval "$(ssh-agent -s)"
         ssh-add ~/.ssh/pkey
-        ssh ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} -p ${{ secrets.SECRET_PORT }} -i "touch test.tesrt"
+        ssh ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} -p ${{ secrets.SECRET_PORT }} "touch test.test"
