@@ -21,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/ville/today', [VilleController::class, 'today']);
+Route::get('/villes', [VilleController::class, 'all']);
