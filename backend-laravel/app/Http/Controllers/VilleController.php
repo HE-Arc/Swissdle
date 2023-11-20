@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\Cycle;
+use App\Models\Ville;
 
 class VilleController extends Controller
 {
@@ -44,6 +45,13 @@ class VilleController extends Controller
 
     public function all()
     {
+        $villes = Ville::all();
 
+        if(!$villes)
+        {
+            return response()->json(['error' => 'Villes not found'], 404);
+        }
+
+        return response()->json($villes);
     }
 }
