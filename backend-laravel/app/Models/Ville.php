@@ -56,6 +56,6 @@ class Ville extends Model
 
     public function langues()
     {
-        return $this->belongsToMany(Langue::class);
+        return $this->belongsToMany(Langue::class, 'langues_villes', 'ville_id', 'langue_id');
     }
 }
