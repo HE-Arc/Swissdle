@@ -4,6 +4,7 @@ namespace App\Utility;
 
 use App\Models\Cycle;
 use App\Models\Ville;
+use App\Utility\Math;
 
 class CityComparator
 {
@@ -23,32 +24,42 @@ class CityComparator
             'city' => $guessedCity,
             'canton_diff' =>  $current->canton_id == $guessedCity->canton_id ,
             'pop_diff' => $current->population <=> $guessedCity->population,
-            'lang_diff' => self::compareLang($current, $guessedCity),
-            'position_diff' => self::comparePosition()
+            'lang_diff' => self::compareLang($guessedCity, $current),
+            'position_diff' => self::comparePosition($guessedCity, $current)
         ];
     }
 
-    private static function compareLang($current, $guessedCity)
+    private static function compareLang($city1, $city2)
     {
-        $currentLanguesIds = $current->langues->map(
+        $city1LanguesIds = $city1->langues->map(
             function($l)
             {
                 return $l->id;
             }
         )->toArray();
 
-        $guessedLanguesIds = $guessedCity->langues->map(
+        $city2LanguesIds = $city2->langues->map(
             function($l)
             {
                 return $l->id;
             }
         )->toArray();
 
-        return count(array_diff($currentLanguesIds, $guessedLanguesIds));
+        return count(array_diff($city1LanguesIds, $city2LanguesIds));
     }
 
-    private static function comparePosition()
+    private static function comparePosition($city1, $city2)
     {
-        return [];
+        $coord1 = $city1->coord;
+        $coord2 = $city2->coord;
+
+        // https://www.php.net/manual/en/function.list.php
+        list($lat1, $long1) = explode(', ', $coord1);
+        list($lat2, $long2) = explode(', ', $coord2);
+
+        return [
+            'distance' => Math::distance($lat1, $long1, $lat2, $long2),
+            'direction' => Math::direction($lat1, $long1, $lat2, $long2)
+        ];
     }
 }
