@@ -4,32 +4,16 @@
     </div>
 </template>
 <script>
-import axios from "axios";
+import CityService from "@/services/CityService";
 
 export default {
     name: "DailyCity",
-    data() {
-        return {
-            imgDailyCity: "",
-            apiBaseUrl: "http://localhost/api/",
-            apiGetDailyCity: "ville/today"
-        };
+    data() { return {}; },
+    computed: {
+        imgDailyCity() {
+            return CityService.getDailyCity() ? CityService.getDailyCity().img : "";
+        },
     },
-    methods: {
-        getCity() {
-            try {
-                axios.get(this.apiBaseUrl + this.apiGetDailyCity).then((response) => {
-                    (this.imgDailyCity = response.data.img)
-                })
-            } catch (err) {
-                alert(err);
-                console.log(err);
-            }
-        }
-    },
-    mounted() {
-        this.getCity();
-    }
 }
 </script>
 <style scoped>
