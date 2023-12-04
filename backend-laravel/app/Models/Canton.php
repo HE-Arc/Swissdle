@@ -11,6 +11,7 @@ class Canton extends Model
 
     protected $fillable = [
         'name',
+        'abbrev',
         'img'
     ];
 
