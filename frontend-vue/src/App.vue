@@ -19,7 +19,8 @@ export default {
   data() {
     return {
       apiBaseUrl: "http://localhost/api/",
-      apiGetDailyCity: "ville/today"
+      apiGetDailyCity: "ville/today",
+      apiGetCities: "villes",
     };
   },
   components: {
@@ -36,10 +37,21 @@ export default {
         alert(err);
         console.log(err);
       }
+    },
+    setCities() {
+      try {
+        axios.get(this.apiBaseUrl + this.apiGetCities).then((response) => {
+          (CityService.setCities(response.data))
+        })
+      } catch (err) {
+        alert(err);
+        console.log(err);
+      }
     }
   },
   mounted() {
     this.setDailyCity();
+    this.setCities();
   }
 }
 </script>
