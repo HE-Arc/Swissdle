@@ -10,33 +10,22 @@
 </template>
 <script>
 import axios from "axios";
+import CityService from "@/services/CityService";
 
 export default {
     name: "SearchInput",
     data() {
         return {
-            cities: [],
             selectedCity: null,
             apiBaseUrl: "http://localhost/api/",
-            apiGetCities: "villes",
             apiGetGuess: "ville/guess/"
         };
     },
     methods: {
-        getCities() {
-            try {
-                axios.get(this.apiBaseUrl + this.apiGetCities).then((response) => {
-                    (this.cities = response.data)
-                })
-            } catch (err) {
-                alert(err);
-                console.log(err);
-            }
-        },
         guess() {
             try {
                 axios.get(this.apiBaseUrl + this.apiGetGuess + this.selectedCity).then((response) => {
-                    (console.log(response.data))
+                    (CityService.addGuesses(response.data))
                 })
             } catch (err) {
                 alert(err);
@@ -44,9 +33,12 @@ export default {
             }
         },
     },
-    mounted() {
-        this.getCities();
-    }
+    computed: {
+        cities() {
+            return CityService.getCities() ? CityService.getCities() : "";
+        },
+    },
+    mounted() { }
 }
 </script>
 <style scoped>
