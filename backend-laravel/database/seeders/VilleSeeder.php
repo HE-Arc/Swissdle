@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use File;
+use App\Models\Canton;
 
 class VilleSeeder extends Seeder
 {
@@ -13,7 +13,7 @@ class VilleSeeder extends Seeder
      */
     public function run(): void
     {
-        $json = File::get("database/data/swissdle_data.json");
+        $json = file_get_contents("database/data/swissdle_data.json");
         $cities = json_decode($json);
 
         foreach ($cities as $key => $city)
@@ -24,7 +24,7 @@ class VilleSeeder extends Seeder
 
             \App\Models\Ville::create(array(
                 'name' => $city->City,
-                'img' => $city->{'Img Link'},
+                'img' => $city->Img_link,
                 'ecusson' => "", //TODO : update the json to contain the crest of that city (optional)
                 'population' => $city->Population,
                 'coord' => $coord,
