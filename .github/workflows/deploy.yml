@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 13_continuous_integration
+      - main
 
 jobs:
   deploy:
@@ -24,4 +25,4 @@ jobs:
         chmod 600 ~/.ssh/pkey
         eval "$(ssh-agent -s)"
         ssh-add ~/.ssh/pkey
-        ssh ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} -p ${{ secrets.SECRET_PORT }} "cd ./project/Swissdle && git config --local core.sshCommand '/usr/bin/ssh -i /home/laravel/project/deploy' && git pull origin main && cd backend-laravel && composer install && cd ../frontend-vue && npm install && npm run build"
+        ssh ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} -p ${{ secrets.SECRET_PORT }} "cd ./project/Swissdle && git pull origin main && cd backend-laravel && composer install && cd ../frontend-vue && npm install && npm run build"
