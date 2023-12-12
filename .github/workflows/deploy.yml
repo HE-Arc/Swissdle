@@ -1,0 +1,28 @@
+name: Deploy to Container
+
+on:
+  push:
+    branches:
+      - 13_continuous_integration
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Deploy to Container
+      run: |
+        mkdir ~/.ssh
+        touch ~/.ssh/known_hosts
+        touch ~/.ssh/pkey
+        ssh-keyscan -p ${{ secrets.SECRET_PORT }} ${{ secrets.SECRET_HOST }} >> ~/.ssh/known_hosts
+        echo "${{ secrets.SECRET_PRIVATE_SSH }}" > ~/.ssh/pkey
+        chmod 600 ~/.ssh/pkey
+        eval "$(ssh-agent -s)"
+        ssh-add ~/.ssh/pkey
+        ssh ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} -p ${{ secrets.SECRET_PORT }} "cd ./project/Swissdle && git pull origin main && cd backend-laravel && composer install && cd ../frontend-vue && npm install && npm run build"
