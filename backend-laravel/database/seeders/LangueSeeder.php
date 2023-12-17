@@ -12,7 +12,7 @@ class LangueSeeder extends Seeder
      */
     public function run(): void
     {
-        $langues = 
+        $langues =
         [
             ['name' => 'Français'],
             ['name' => 'Suisse-Allemand'],
