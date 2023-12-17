@@ -18,7 +18,7 @@ class VilleSeeder extends Seeder
 
         foreach ($cities as $key => $city)
         {
-            $coord = 'E' . $city->E . ';N' . $city->N;
+            $coord = $city->E . ', ' . $city->N;
 
             $canton = Canton::where('abbrev', $city->Canton)->first();
 
