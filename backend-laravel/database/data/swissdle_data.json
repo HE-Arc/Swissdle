@@ -1,686 +1,686 @@
 [
- {
-  "City": "Zürich",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/85\/City_Zürich_mit_Zürichsee.jpg\/1200px-City_Zürich_mit_Zürichsee.jpg",
-  "Canton": "ZH",
-  "E": 2684773.706697868,
-  "N": 1252454.430065094,
-  "Language": "de",
-  "Population": 420217
- },
- {
-  "City": "Winterthur",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b6\/Blick_auf_die_Winterthurer_Altstadt.jpg\/1280px-Blick_auf_die_Winterthurer_Altstadt.jpg",
-  "Canton": "ZH",
-  "E": 2702520.020028003,
-  "N": 1258747.802063151,
-  "Language": "de",
-  "Population": 113173
- },
- {
-  "City": "Uster",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/38\/Uster_Panorama_2.JPG\/1200px-Uster_Panorama_2.JPG?20160530183129",
-  "Canton": "ZH",
-  "E": 2696590.153000001,
-  "N": 1244675.010000002,
-  "Language": "de",
-  "Population": 35007
- },
- {
-  "City": "Bern",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/eb\/Central_Bern_from_north.jpg",
-  "Canton": "BE",
-  "E": 2601017.917000001,
-  "N": 1203268.994534385,
-  "Language": "de",
-  "Population": 134591
- },
- {
-  "City": "Biel\/Bienne",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/6\/67\/Vue_panoramique_de_Bienne_sur_le_lac_et_le_Jura.jpg\/1920px-Vue_panoramique_de_Bienne_sur_le_lac_et_le_Jura.jpg",
-  "Canton": "BE",
-  "E": 2585367.236500001,
-  "N": 1221241.193458386,
-  "Language": "de\/fr",
-  "Population": 55602
- },
- {
-  "City": "Thun",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/37\/NachThun.JPG\/1280px-NachThun.JPG ",
-  "Canton": "BE",
-  "E": 2615306.221803464,
-  "N": 1177420.363264902,
-  "Language": "de",
-  "Population": 43632
- },
- {
-  "City": "Luzern",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/76\/1_lucerne_panorama_2012.jpg\/1200px-1_lucerne_panorama_2012.jpg?20120709151245",
-  "Canton": "LU",
-  "E": 2665661.302054167,
-  "N": 1213137.408226698,
-  "Language": "de",
-  "Population": 82257
- },
- {
-  "City": "Emmen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/d\/de\/Panorama_Emmenbruecke.jpg\/1200px-Panorama_Emmenbruecke.jpg ",
-  "Canton": "LU",
-  "E": 2665603.684999999,
-  "N": 1214583.294,
-  "Language": "de",
-  "Population": 31043
- },
- {
-  "City": "Kriens",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/9b\/Kriens.JPG\/1200px-Kriens.JPG?",
-  "Canton": "LU",
-  "E": 2663882.314,
-  "N": 1209448.936000001,
-  "Language": "de",
-  "Population": 27847
- },
- {
-  "City": "Altdorf UR",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a1\/Altdorf_Ortskern.JPG\/1200px-Altdorf_Ortskern.JPG ",
-  "Canton": "UR",
-  "E": 2691739.192000002,
-  "N": 1193170.408,
-  "Language": "de",
-  "Population": 9537
- },
- {
-  "City": "Erstfeld",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/ff\/Gotthard_Basistunnel_Portal_Nord_2009-06-14.jpg",
-  "Canton": "UR",
-  "E": 2692465.697999999,
-  "N": 1186175.701000001,
-  "Language": "de",
-  "Population": 3866
- },
- {
-  "City": "Schattdorf",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/44\/2017-Schattdorf.jpg ",
-  "Canton": "UR",
-  "E": 2692877.890999999,
-  "N": 1191016.392999999,
-  "Language": "de",
-  "Population": 5453
- },
- {
-  "City": "Schwyz",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5b\/Schwyz.jpg ",
-  "Canton": "SZ",
-  "E": 2695165.585081408,
-  "N": 1212437.238378075,
-  "Language": "de",
-  "Population": 15239
- },
- {
-  "City": "Küssnacht",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/7f\/K%C3%BCssnacht_Seebodenalp_2011-07-11_14.22.44.jpg\/1200px-K%C3%BCssnacht_Seebodenalp_2011-07-11_14.22.44.jpg ",
-  "Canton": "SZ",
-  "E": 2676050.708000001,
-  "N": 1214860.693999999,
-  "Language": "de",
-  "Population": 13843
- },
- {
-  "City": "Einsiedeln",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/c0\/Einsiedeln_2021.jpg ",
-  "Canton": "SZ",
-  "E": 2699480.818999998,
-  "N": 1220540.061000001,
-  "Language": "de",
-  "Population": 16106
- },
- {
-  "City": "Sarnen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1d\/Sarnen-See.jpg ",
-  "Canton": "OW",
-  "E": 2661495.677999999,
-  "N": 1194118.052000001,
-  "Language": "de",
-  "Population": 10458
- },
- {
-  "City": "Kerns",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/56\/Kerns_Luftaufnahme2_2012_10.jpg ",
-  "Canton": "OW",
-  "E": 2664141.11872116,
-  "N": 1197612.259289126,
-  "Language": "de",
-  "Population": 5485
- },
- {
-  "City": "Sachseln",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a1\/Blick_auf_Sachseln_OW.jpg\/1200px-Blick_auf_Sachseln_OW.jpg ",
-  "Canton": "OW",
-  "E": 2661101.475000001,
-  "N": 1191025.171,
-  "Language": "de",
-  "Population": 4597
- },
- {
-  "City": "Stans",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/38\/Ortsmitte_Stans.JPG ",
-  "Canton": "NW",
-  "E": 2668809.356395264,
-  "N": 1201557.274828511,
-  "Language": "de",
-  "Population": 8254
- },
- {
-  "City": "Hergiswil",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a3\/Hergiswil.jpg ",
-  "Canton": "LU",
-  "E": 2666396.769978793,
-  "N": 1205646.797008154,
-  "Language": "de",
-  "Population": 5445
- },
- {
-  "City": "Beckenried",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/82\/Schweiz_-_Vierwaldst%C3%A4ttersee_-_Beckenried_0236.jpg\/1200px-Schweiz_-_Vierwaldst%C3%A4ttersee_-_Beckenried_0236.jpg ",
-  "Canton": "NW",
-  "E": 2678395.767999999,
-  "N": 1202071.099,
-  "Language": "de",
-  "Population": 3537
- },
- {
-  "City": "Glarus",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/82\/Glarus_Panorama.jpg ",
-  "Canton": "GL",
-  "E": 2724418.440285245,
-  "N": 1209883.684193441,
-  "Language": "de",
-  "Population": 12511
- },
- {
-  "City": "Näfels",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9c\/N%C3%A4fels_Oktober_2021.JPG ",
-  "Canton": "GL",
-  "E": 2722853.563000001,
-  "N": 1217946.405999999,
-  "Language": "de",
-  "Population": 3953
- },
- {
-  "City": "Ennenda",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d7\/Ennenda_vom_Holenstein%2C_Gemeinde_Glarus_%2818949692153%29.jpg ",
-  "Canton": "GL",
-  "E": 2724590.509092537,
-  "N": 1209942.445127451,
-  "Language": "de",
-  "Population": 2604
- },
- {
-  "City": "Zug",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a7\/Zug.jpg ",
-  "Canton": "ZG",
-  "E": 2680469.74331452,
-  "N": 1226680.214061704,
-  "Language": "de",
-  "Population": 30618
- },
- {
-  "City": "Baar",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/44\/Baar02.jpg ",
-  "Canton": "ZG",
-  "E": 2682158.776999999,
-  "N": 1227489.660999998,
-  "Language": "de",
-  "Population": 24617
- },
- {
-  "City": "Cham",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/04\/Rotkreuz_Cham_Zugersee_03.2007.JPG ",
-  "Canton": "ZG",
-  "E": 2677391.723000001,
-  "N": 1225873.721999999,
-  "Language": "de",
-  "Population": 16893
- },
- {
-  "City": "Fribourg",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a3\/2005-Fribourg-Stadtblick.jpg ",
-  "Canton": "FR",
-  "E": 2578944.813000001,
-  "N": 1183929.050000001,
-  "Language": "de\/fr",
-  "Population": 38197
- },
- {
-  "City": "Bulle",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/58\/Le_Paquier%2C_FR_nw_Ri_O_-_Bulle_v_SW.jpg",
-  "Canton": "FR",
-  "E": 2570880.059999999,
-  "N": 1163295.416000001,
-  "Language": "fr",
-  "Population": 23871
- },
- {
-  "City": "Villars-sur-Glâne",
-  "Img_link": "https:\/\/www.laliberte.ch\/media\/image\/23\/normal\/20030925_vm_032915-1.jpg ",
-  "Canton": "FR",
-  "E": 2575369.153000001,
-  "N": 1182258.594999999,
-  "Language": "fr",
-  "Population": 12228
- },
- {
-  "City": "Solothurn",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4a\/Solothurn_west_panorama.jpg ",
-  "Canton": "SO",
-  "E": 2607322.867707729,
-  "N": 1227301.95884457,
-  "Language": "de",
-  "Population": 16933
- },
- {
-  "City": "Olten",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e0\/2020-Olten-Alstadt.jpg ",
-  "Canton": "SO",
-  "E": 2635191.767704498,
-  "N": 1245250.367582872,
-  "Language": "de",
-  "Population": 18399
- },
- {
-  "City": "Grenchen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/90\/Grenchen_waldrand.JPG ",
-  "Canton": "SO",
-  "E": 2596672.579999998,
-  "N": 1226875.102000002,
-  "Language": "de",
-  "Population": 17468
- },
- {
-  "City": "Basel",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/44\/Basel_-_M%C3%BCnsterpanorama_Juni_2019.jpg\/1280px-Basel_-_M%C3%BCnsterpanorama_Juni_2019.jpg ",
-  "Canton": "BS",
-  "E": 2611308.8495,
-  "N": 1267305.821372061,
-  "Language": "de",
-  "Population": 173232
- },
- {
-  "City": "Riehen",
-  "Img_link": "https:\/\/media.myswitzerland.com\/image\/fetch\/c_limit,w_1760,h_640\/f_auto,q_80,fl_keep_iptc\/https:\/\/www.myswitzerland.com\/-\/media\/dam\/resources\/places\/r\/i\/riehen\/meta%20page%20image%20all% ",
-  "Canton": "BS",
-  "E": 2615842.664999999,
-  "N": 1270467.363000002,
-  "Language": "de",
-  "Population": 21449
- },
- {
-  "City": "Liestal",
-  "Img_link": "https:\/\/stadtentwicklung-liestal.ch\/wp-content\/uploads\/2022\/09\/Bild1-2.jpg ",
-  "Canton": "BL",
-  "E": 2622606.433279532,
-  "N": 1257261.164097804,
-  "Language": "de",
-  "Population": 14391
- },
- {
-  "City": "Pratteln",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/78\/Panoramablick_nach_Pratteln.jpg ",
-  "Canton": "BL",
-  "E": 2617244.071199022,
-  "N": 1264729.34611662,
-  "Language": "de",
-  "Population": 16650
- },
- {
-  "City": "Muttenz",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b2\/Blick_auf_Basel.jpg ",
-  "Canton": "BL",
-  "E": 2616256.811000001,
-  "N": 1263384.375999998,
-  "Language": "de",
-  "Population": 17910
- },
- {
-  "City": "Schaffhausen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/00\/Schaffhausen.jpg ",
-  "Canton": "SH",
-  "E": 2689438.877833442,
-  "N": 1288950.874280522,
-  "Language": "de",
-  "Population": 36604
- },
- {
-  "City": "Thayngen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1b\/Blick_vom_Weinberg_%C3%BCber_Thayngen.jpg ",
-  "Canton": "SH",
-  "E": 2695434.833000001,
-  "N": 1289314.159000002,
-  "Language": "de",
-  "Population": 4933
- },
- {
-  "City": "Neuhausen am Rheinfall",
-  "Img_link": "https:\/\/localcities.rokka.io\/web_municipality_image_gallery_v0\/b7a324b03e7d28544218adde4104b6c13279a918\/2937_neuhausen-am-rheinfall.jpg ",
-  "Canton": "SH",
-  "E": 2688514.500999998,
-  "N": 1281909.074000001,
-  "Language": "de",
-  "Population": 10467
- },
- {
-  "City": "Appenzell",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/36\/Aerial_View_of_Appenzell_14.02.2008_14-45-40.JPG ",
-  "Canton": "AI",
-  "E": 2749002.092999998,
-  "N": 1244097.708000001,
-  "Language": "de",
-  "Population": 5778
- },
- {
-  "City": "Gonten",
-  "Img_link": "https:\/\/gonten.ch\/files\/Inhalt\/Bezirk\/Bilder\/DSC00393.jpg ",
-  "Canton": "AR",
-  "E": 2742815.178599793,
-  "N": 1243991.610679237,
-  "Language": "de",
-  "Population": 1462
- },
- {
-  "City": "Trogen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/c2\/F%C3%BCnfeckpalast_Trogen.jpg ",
-  "Canton": "AR",
-  "E": 2751734.535956844,
-  "N": 1250758.204309191,
-  "Language": "de",
-  "Population": 1680
- },
- {
-  "City": "Herisau",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e3\/Herisau.jpg ",
-  "Canton": "AR",
-  "E": 2738986.995000001,
-  "N": 1249974.105999999,
-  "Language": "de",
-  "Population": 15763
- },
- {
-  "City": "Teufen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/ce\/Teufen-AR.jpg ",
-  "Canton": "AR",
-  "E": 2747138.118000001,
-  "N": 1250608.783,
-  "Language": "de",
-  "Population": 6438
- },
- {
-  "City": "St. Gallen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d1\/St.Gallen_vonDreiweieren_09.jpg ",
-  "Canton": "AR",
-  "E": 2742588.133449942,
-  "N": 1251693.878262534,
-  "Language": "de",
-  "Population": 76090
- },
- {
-  "City": "Rapperswil SG",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/df\/Rapperswil_-_Seedamm_-_Holzbr%C3%BCcke_-_Etzel_Kulm_2010-10-21_16-39-22.JPG ",
-  "Canton": "SG",
-  "E": 2704353.875,
-  "N": 1231656.837000001,
-  "Language": "de",
-  "Population": 27277
- },
- {
-  "City": "Wil SG",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/59\/Wil_Wolken_1960.JPG\/1280px-Wil_Wolken_1960.JPG ",
-  "Canton": "SG",
-  "E": 2721813.631000001,
-  "N": 1255725.537999999,
-  "Language": "de",
-  "Population": 24159
- },
- {
-  "City": "Chur",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e7\/View_of_Chur.jpg ",
-  "Canton": "GR",
-  "E": 2759706.95,
-  "N": 1190690.995000001,
-  "Language": "de",
-  "Population": 35992
- },
- {
-  "City": "Davos",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/10\/Luftbild_Davos2.jpg ",
-  "Canton": "GR",
-  "E": 2783247.576000001,
-  "N": 1187016.868000001,
-  "Language": "de",
-  "Population": 10862
- },
- {
-  "City": "Landquart",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e8\/Landquart.jpg ",
-  "Canton": "GR",
-  "E": 2760774.431095513,
-  "N": 1203549.448984997,
-  "Language": "de",
-  "Population": 9153
- },
- {
-  "City": "Aarau",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e7\/Aarau_from_top.jpg",
-  "Canton": "AG",
-  "E": 2646060.8375,
-  "N": 1248866.143330487,
-  "Language": "de",
-  "Population": 21773
- },
- {
-  "City": "Baden",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/10\/Baden_-_Schartenfels_20100524_14-53-16.JPG ",
-  "Canton": "AG",
-  "E": 2665611.855999999,
-  "N": 1258347.228999998,
-  "Language": "de",
-  "Population": 19547
- },
- {
-  "City": "Wettingen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/49\/Wettingen_DJI_0151.jpg ",
-  "Canton": "AG",
-  "E": 2667237.462000001,
-  "N": 1257830.113000002,
-  "Language": "de",
-  "Population": 20934
- },
- {
-  "City": "Frauenfeld",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/fa\/20080507_1708MESZ_Schloss_Frauenfeld_1680x1050_HDR.jpg",
-  "Canton": "TG",
-  "E": 2713346.714490109,
-  "N": 1269356.627787973,
-  "Language": "de",
-  "Population": 25781
- },
- {
-  "City": "Weinfelden",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e7\/Weinfelden_Thurgau_02062005.jpg ",
-  "Canton": "TG",
-  "E": 2728110.124077383,
-  "N": 1270195.692429594,
-  "Language": "de",
-  "Population": 11602
- },
- {
-  "City": "Kreuzlingen",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/65\/Panoramakreuzlingen2.JPG ",
-  "Canton": "TG",
-  "E": 2732697.691827372,
-  "N": 1278073.364970038,
-  "Language": "de",
-  "Population": 22188
- },
- {
-  "City": "Lugano",
-  "Img_link": "https:\/\/fr.wikipedia.org\/wiki\/Lugano#\/media\/Fichier:Lugano_from_Sighignola.jpg ",
-  "Canton": "TI",
-  "E": 2716805.890000001,
-  "N": 1095994.215999998,
-  "Language": "it",
-  "Population": 62615
- },
- {
-  "City": "Bellinzona",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/23\/Town_and_Castelgrande_castle_of_Bellinzona.jpg",
-  "Canton": "TI",
-  "E": 2723262.977065425,
-  "N": 1117423.982999999,
-  "Language": "it",
-  "Population": 43279
- },
- {
-  "City": "Locarno",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f5\/Locarno_porto_-_panoramio.jpg",
-  "Canton": "TI",
-  "E": 2704628.130391828,
-  "N": 1113268.137865718,
-  "Language": "it",
-  "Population": 15776
- },
- {
-  "City": "Lausanne",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b7\/Lausanne_img_0585.jpg\/1200px-Lausanne_img_0585.jpg",
-  "Canton": "VD",
-  "E": 2537956.365494896,
-  "N": 1152398.708000001,
-  "Language": "fr",
-  "Population": 139408
- },
- {
-  "City": "Yverdon-les-Bains",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/13\/Yverdon-les-Bains_vue_du_ciel.jpg",
-  "Canton": "VD",
-  "E": 2539038.140000001,
-  "N": 1181165.717999998,
-  "Language": "fr",
-  "Population": 30156
- },
- {
-  "City": "Montreux",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/fb\/Montreux_%28VD%29.jpg ",
-  "Canton": "VD",
-  "E": 2559582.155999999,
-  "N": 1142301.243000001,
-  "Language": "fr",
-  "Population": 25984
- },
- {
-  "City": "Sion",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c1\/Sion_depuis_Nax_-_2022.jpg\/1024px-Sion_depuis_Nax_-_2022.jpg",
-  "Canton": "VS",
-  "E": 2594412.868085659,
-  "N": 1122031.806040103,
-  "Language": "fr",
-  "Population": 34710
- },
- {
-  "City": "Monthey",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/0d\/Monthey.jpg\/1280px-Monthey.jpg ",
-  "Canton": "VS",
-  "E": 2551884.118999999,
-  "N": 1117479.545000002,
-  "Language": "fr",
-  "Population": 17894
- },
- {
-  "City": "Martigny",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4a\/Martigny_-_2022.jpg ",
-  "Canton": "VS",
-  "E": 2571782.749000002,
-  "N": 1105522.844000001,
-  "Language": "fr",
-  "Population": 18297
- },
- {
-  "City": "Neuchâtel",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/69\/Vuevilledeneuchatel.jpg ",
-  "Canton": "NE",
-  "E": 2558516.804271305,
-  "N": 1203525.202611874,
-  "Language": "fr",
-  "Population": 33493
- },
- {
-  "City": "La Chaux-de-Fonds",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/7a\/00_la-chaux-de-fonds.jpg",
-  "Canton": "NE",
-  "E": 2554034.675999999,
-  "N": 1217192.149,
-  "Language": "fr",
-  "Population": 37494
- },
- {
-  "City": "Le Locle",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/90\/00_le_locle1.jpg",
-  "Canton": "NE",
-  "E": 2547644.721000001,
-  "N": 1212133.999000002,
-  "Language": "fr",
-  "Population": 10101
- },
- {
-  "City": "Genève",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/ab\/Geneve_2005_001_Ork.ch.jpg ",
-  "Canton": "GE",
-  "E": 2500293.468411973,
-  "N": 1118468.787999999,
-  "Language": "fr",
-  "Population": 203951
- },
- {
-  "City": "Vernier",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e5\/Vernier_%28GE%29.jpg ",
-  "Canton": "GE",
-  "E": 2494441.27881095,
-  "N": 1119626.078792668,
-  "Language": "fr",
-  "Population": 34958
- },
- {
-  "City": "Lancy",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/2c\/Lancy-1.jpg ",
-  "Canton": "GE",
-  "E": 2498258.513,
-  "N": 1115400.475000001,
-  "Language": "fr",
-  "Population": 33377
- },
- {
-  "City": "Porrentruy",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4e\/Porrentruy_%28JU%29.jpg ",
-  "Canton": "JU",
-  "E": 2570598.302410765,
-  "N": 1251048.537764366,
-  "Language": "fr",
-  "Population": 6563
- },
- {
-  "City": "Delémont",
-  "Img_link": "https:\/\/www.delemont.ch\/Htdocs\/Images\/IF_EntryPage\/puid_dd723c23-0f83-44d7-9309-7fa1fee3cf56_eiplace_IF_ImageTextTopPart_3751.png",
-  "Canton": "JU",
-  "E": 2594154.507110068,
-  "N": 1244547.169394123,
-  "Language": "fr",
-  "Population": 12566
- },
- {
-  "City": "Moutier",
-  "Img_link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/51\/Moutier_%28JU%29_2.jpg",
-  "Canton": "BE",
-  "E": 2594971.015000001,
-  "N": 1236623.838,
-  "Language": "fr",
-  "Population": 7385
- }
-]
+    {
+     "City": "Zürich",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/85\/City_Zürich_mit_Zürichsee.jpg\/1200px-City_Zürich_mit_Zürichsee.jpg",
+     "Canton": "ZH",
+     "E": 2684773.706697868,
+     "N": 1252454.430065094,
+     "Language": "de",
+     "Population": 420217
+    },
+    {
+     "City": "Winterthur",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b6\/Blick_auf_die_Winterthurer_Altstadt.jpg\/1280px-Blick_auf_die_Winterthurer_Altstadt.jpg",
+     "Canton": "ZH",
+     "E": 2702520.020028003,
+     "N": 1258747.802063151,
+     "Language": "de",
+     "Population": 113173
+    },
+    {
+     "City": "Uster",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/38\/Uster_Panorama_2.JPG\/1200px-Uster_Panorama_2.JPG?20160530183129",
+     "Canton": "ZH",
+     "E": 2696590.153000001,
+     "N": 1244675.010000002,
+     "Language": "de",
+     "Population": 35007
+    },
+    {
+     "City": "Bern",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/eb\/Central_Bern_from_north.jpg",
+     "Canton": "BE",
+     "E": 2601017.917000001,
+     "N": 1203268.994534385,
+     "Language": "de",
+     "Population": 134591
+    },
+    {
+     "City": "Biel\/Bienne",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/6\/67\/Vue_panoramique_de_Bienne_sur_le_lac_et_le_Jura.jpg\/1920px-Vue_panoramique_de_Bienne_sur_le_lac_et_le_Jura.jpg",
+     "Canton": "BE",
+     "E": 2585367.236500001,
+     "N": 1221241.193458386,
+     "Language": "de\/fr",
+     "Population": 55602
+    },
+    {
+     "City": "Thun",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/37\/NachThun.JPG\/1280px-NachThun.JPG ",
+     "Canton": "BE",
+     "E": 2615306.221803464,
+     "N": 1177420.363264902,
+     "Language": "de",
+     "Population": 43632
+    },
+    {
+     "City": "Luzern",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/76\/1_lucerne_panorama_2012.jpg\/1200px-1_lucerne_panorama_2012.jpg?20120709151245",
+     "Canton": "LU",
+     "E": 2665661.302054167,
+     "N": 1213137.408226698,
+     "Language": "de",
+     "Population": 82257
+    },
+    {
+     "City": "Emmen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/d\/de\/Panorama_Emmenbruecke.jpg\/1200px-Panorama_Emmenbruecke.jpg ",
+     "Canton": "LU",
+     "E": 2665603.684999999,
+     "N": 1214583.294,
+     "Language": "de",
+     "Population": 31043
+    },
+    {
+     "City": "Kriens",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/9b\/Kriens.JPG\/1200px-Kriens.JPG?",
+     "Canton": "LU",
+     "E": 2663882.314,
+     "N": 1209448.936000001,
+     "Language": "de",
+     "Population": 27847
+    },
+    {
+     "City": "Altdorf UR",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a1\/Altdorf_Ortskern.JPG\/1200px-Altdorf_Ortskern.JPG ",
+     "Canton": "UR",
+     "E": 2691739.192000002,
+     "N": 1193170.408,
+     "Language": "de",
+     "Population": 9537
+    },
+    {
+     "City": "Erstfeld",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/ff\/Gotthard_Basistunnel_Portal_Nord_2009-06-14.jpg",
+     "Canton": "UR",
+     "E": 2692465.697999999,
+     "N": 1186175.701000001,
+     "Language": "de",
+     "Population": 3866
+    },
+    {
+     "City": "Schattdorf",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/44\/2017-Schattdorf.jpg ",
+     "Canton": "UR",
+     "E": 2692877.890999999,
+     "N": 1191016.392999999,
+     "Language": "de",
+     "Population": 5453
+    },
+    {
+     "City": "Schwyz",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5b\/Schwyz.jpg ",
+     "Canton": "SZ",
+     "E": 2695165.585081408,
+     "N": 1212437.238378075,
+     "Language": "de",
+     "Population": 15239
+    },
+    {
+     "City": "Küssnacht",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/7f\/K%C3%BCssnacht_Seebodenalp_2011-07-11_14.22.44.jpg\/1200px-K%C3%BCssnacht_Seebodenalp_2011-07-11_14.22.44.jpg ",
+     "Canton": "SZ",
+     "E": 2676050.708000001,
+     "N": 1214860.693999999,
+     "Language": "de",
+     "Population": 13843
+    },
+    {
+     "City": "Einsiedeln",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/c0\/Einsiedeln_2021.jpg ",
+     "Canton": "SZ",
+     "E": 2699480.818999998,
+     "N": 1220540.061000001,
+     "Language": "de",
+     "Population": 16106
+    },
+    {
+     "City": "Sarnen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1d\/Sarnen-See.jpg ",
+     "Canton": "OW",
+     "E": 2661495.677999999,
+     "N": 1194118.052000001,
+     "Language": "de",
+     "Population": 10458
+    },
+    {
+     "City": "Kerns",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/56\/Kerns_Luftaufnahme2_2012_10.jpg ",
+     "Canton": "OW",
+     "E": 2664141.11872116,
+     "N": 1197612.259289126,
+     "Language": "de",
+     "Population": 5485
+    },
+    {
+     "City": "Sachseln",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a1\/Blick_auf_Sachseln_OW.jpg\/1200px-Blick_auf_Sachseln_OW.jpg ",
+     "Canton": "OW",
+     "E": 2661101.475000001,
+     "N": 1191025.171,
+     "Language": "de",
+     "Population": 4597
+    },
+    {
+     "City": "Stans",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/38\/Ortsmitte_Stans.JPG ",
+     "Canton": "NW",
+     "E": 2668809.356395264,
+     "N": 1201557.274828511,
+     "Language": "de",
+     "Population": 8254
+    },
+    {
+     "City": "Hergiswil",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a3\/Hergiswil.jpg ",
+     "Canton": "LU",
+     "E": 2666396.769978793,
+     "N": 1205646.797008154,
+     "Language": "de",
+     "Population": 5445
+    },
+    {
+     "City": "Beckenried",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/82\/Schweiz_-_Vierwaldst%C3%A4ttersee_-_Beckenried_0236.jpg\/1200px-Schweiz_-_Vierwaldst%C3%A4ttersee_-_Beckenried_0236.jpg ",
+     "Canton": "NW",
+     "E": 2678395.767999999,
+     "N": 1202071.099,
+     "Language": "de",
+     "Population": 3537
+    },
+    {
+     "City": "Glarus",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/82\/Glarus_Panorama.jpg ",
+     "Canton": "GL",
+     "E": 2724418.440285245,
+     "N": 1209883.684193441,
+     "Language": "de",
+     "Population": 12511
+    },
+    {
+     "City": "Näfels",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9c\/N%C3%A4fels_Oktober_2021.JPG ",
+     "Canton": "GL",
+     "E": 2722853.563000001,
+     "N": 1217946.405999999,
+     "Language": "de",
+     "Population": 3953
+    },
+    {
+     "City": "Ennenda",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d7\/Ennenda_vom_Holenstein%2C_Gemeinde_Glarus_%2818949692153%29.jpg ",
+     "Canton": "GL",
+     "E": 2724590.509092537,
+     "N": 1209942.445127451,
+     "Language": "de",
+     "Population": 2604
+    },
+    {
+     "City": "Zug",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a7\/Zug.jpg ",
+     "Canton": "ZG",
+     "E": 2680469.74331452,
+     "N": 1226680.214061704,
+     "Language": "de",
+     "Population": 30618
+    },
+    {
+     "City": "Baar",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/44\/Baar02.jpg ",
+     "Canton": "ZG",
+     "E": 2682158.776999999,
+     "N": 1227489.660999998,
+     "Language": "de",
+     "Population": 24617
+    },
+    {
+     "City": "Cham",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/04\/Rotkreuz_Cham_Zugersee_03.2007.JPG ",
+     "Canton": "ZG",
+     "E": 2677391.723000001,
+     "N": 1225873.721999999,
+     "Language": "de",
+     "Population": 16893
+    },
+    {
+     "City": "Fribourg",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a3\/2005-Fribourg-Stadtblick.jpg ",
+     "Canton": "FR",
+     "E": 2578944.813000001,
+     "N": 1183929.050000001,
+     "Language": "de\/fr",
+     "Population": 38197
+    },
+    {
+     "City": "Bulle",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/58\/Le_Paquier%2C_FR_nw_Ri_O_-_Bulle_v_SW.jpg",
+     "Canton": "FR",
+     "E": 2570880.059999999,
+     "N": 1163295.416000001,
+     "Language": "fr",
+     "Population": 23871
+    },
+    {
+     "City": "Villars-sur-Glâne",
+     "Img link": "https:\/\/www.laliberte.ch\/media\/image\/23\/normal\/20030925_vm_032915-1.jpg ",
+     "Canton": "FR",
+     "E": 2575369.153000001,
+     "N": 1182258.594999999,
+     "Language": "fr",
+     "Population": 12228
+    },
+    {
+     "City": "Solothurn",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4a\/Solothurn_west_panorama.jpg ",
+     "Canton": "SO",
+     "E": 2607322.867707729,
+     "N": 1227301.95884457,
+     "Language": "de",
+     "Population": 16933
+    },
+    {
+     "City": "Olten",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e0\/2020-Olten-Alstadt.jpg ",
+     "Canton": "SO",
+     "E": 2635191.767704498,
+     "N": 1245250.367582872,
+     "Language": "de",
+     "Population": 18399
+    },
+    {
+     "City": "Grenchen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/90\/Grenchen_waldrand.JPG ",
+     "Canton": "SO",
+     "E": 2596672.579999998,
+     "N": 1226875.102000002,
+     "Language": "de",
+     "Population": 17468
+    },
+    {
+     "City": "Basel",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/44\/Basel_-_M%C3%BCnsterpanorama_Juni_2019.jpg\/1280px-Basel_-_M%C3%BCnsterpanorama_Juni_2019.jpg ",
+     "Canton": "BS",
+     "E": 2611308.8495,
+     "N": 1267305.821372061,
+     "Language": "de",
+     "Population": 173232
+    },
+    {
+     "City": "Riehen",
+     "Img link": "https://www.myswitzerland.com/-/media/dam/resources/places/r/i/riehen/meta%20page%20image%20all%",
+     "Canton": "BS",
+     "E": 2615842.664999999,
+     "N": 1270467.363000002,
+     "Language": "de",
+     "Population": 21449
+    },
+    {
+     "City": "Liestal",
+     "Img link": "https:\/\/stadtentwicklung-liestal.ch\/wp-content\/uploads\/2022\/09\/Bild1-2.jpg ",
+     "Canton": "BL",
+     "E": 2622606.433279532,
+     "N": 1257261.164097804,
+     "Language": "de",
+     "Population": 14391
+    },
+    {
+     "City": "Pratteln",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/78\/Panoramablick_nach_Pratteln.jpg ",
+     "Canton": "BL",
+     "E": 2617244.071199022,
+     "N": 1264729.34611662,
+     "Language": "de",
+     "Population": 16650
+    },
+    {
+     "City": "Muttenz",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b2\/Blick_auf_Basel.jpg ",
+     "Canton": "BL",
+     "E": 2616256.811000001,
+     "N": 1263384.375999998,
+     "Language": "de",
+     "Population": 17910
+    },
+    {
+     "City": "Schaffhausen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/00\/Schaffhausen.jpg ",
+     "Canton": "SH",
+     "E": 2689438.877833442,
+     "N": 1288950.874280522,
+     "Language": "de",
+     "Population": 36604
+    },
+    {
+     "City": "Thayngen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1b\/Blick_vom_Weinberg_%C3%BCber_Thayngen.jpg ",
+     "Canton": "SH",
+     "E": 2695434.833000001,
+     "N": 1289314.159000002,
+     "Language": "de",
+     "Population": 4933
+    },
+    {
+     "City": "Neuhausen am Rheinfall",
+     "Img link": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Dampflokomotive_beim_Rheinfall%2C_Neuhausen.jpg/1280px-Dampflokomotive_beim_Rheinfall%2C_Neuhausen.jpg",
+     "Canton": "SH",
+     "E": 2688514.500999998,
+     "N": 1281909.074000001,
+     "Language": "de",
+     "Population": 10467
+    },
+    {
+     "City": "Appenzell",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/36\/Aerial_View_of_Appenzell_14.02.2008_14-45-40.JPG ",
+     "Canton": "AI",
+     "E": 2749002.092999998,
+     "N": 1244097.708000001,
+     "Language": "de",
+     "Population": 5778
+    },
+    {
+     "City": "Gonten",
+     "Img link": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Picswiss_AI-05-02.jpg",
+     "Canton": "AR",
+     "E": 2742815.178599793,
+     "N": 1243991.610679237,
+     "Language": "de",
+     "Population": 1462
+    },
+    {
+     "City": "Trogen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/c2\/F%C3%BCnfeckpalast_Trogen.jpg ",
+     "Canton": "AR",
+     "E": 2751734.535956844,
+     "N": 1250758.204309191,
+     "Language": "de",
+     "Population": 1680
+    },
+    {
+     "City": "Herisau",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e3\/Herisau.jpg ",
+     "Canton": "AR",
+     "E": 2738986.995000001,
+     "N": 1249974.105999999,
+     "Language": "de",
+     "Population": 15763
+    },
+    {
+     "City": "Teufen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/c\/ce\/Teufen-AR.jpg ",
+     "Canton": "AR",
+     "E": 2747138.118000001,
+     "N": 1250608.783,
+     "Language": "de",
+     "Population": 6438
+    },
+    {
+     "City": "St. Gallen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d1\/St.Gallen_vonDreiweieren_09.jpg ",
+     "Canton": "AR",
+     "E": 2742588.133449942,
+     "N": 1251693.878262534,
+     "Language": "de",
+     "Population": 76090
+    },
+    {
+     "City": "Rapperswil SG",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/df\/Rapperswil_-_Seedamm_-_Holzbr%C3%BCcke_-_Etzel_Kulm_2010-10-21_16-39-22.JPG ",
+     "Canton": "SG",
+     "E": 2704353.875,
+     "N": 1231656.837000001,
+     "Language": "de",
+     "Population": 27277
+    },
+    {
+     "City": "Wil SG",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/59\/Wil_Wolken_1960.JPG\/1280px-Wil_Wolken_1960.JPG ",
+     "Canton": "SG",
+     "E": 2721813.631000001,
+     "N": 1255725.537999999,
+     "Language": "de",
+     "Population": 24159
+    },
+    {
+     "City": "Chur",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e7\/View_of_Chur.jpg ",
+     "Canton": "GR",
+     "E": 2759706.95,
+     "N": 1190690.995000001,
+     "Language": "de",
+     "Population": 35992
+    },
+    {
+     "City": "Davos",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/10\/Luftbild_Davos2.jpg ",
+     "Canton": "GR",
+     "E": 2783247.576000001,
+     "N": 1187016.868000001,
+     "Language": "de",
+     "Population": 10862
+    },
+    {
+     "City": "Landquart",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e8\/Landquart.jpg ",
+     "Canton": "GR",
+     "E": 2760774.431095513,
+     "N": 1203549.448984997,
+     "Language": "de",
+     "Population": 9153
+    },
+    {
+     "City": "Aarau",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e7\/Aarau_from_top.jpg",
+     "Canton": "AG",
+     "E": 2646060.8375,
+     "N": 1248866.143330487,
+     "Language": "de",
+     "Population": 21773
+    },
+    {
+     "City": "Baden",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/10\/Baden_-_Schartenfels_20100524_14-53-16.JPG ",
+     "Canton": "AG",
+     "E": 2665611.855999999,
+     "N": 1258347.228999998,
+     "Language": "de",
+     "Population": 19547
+    },
+    {
+     "City": "Wettingen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/49\/Wettingen_DJI_0151.jpg ",
+     "Canton": "AG",
+     "E": 2667237.462000001,
+     "N": 1257830.113000002,
+     "Language": "de",
+     "Population": 20934
+    },
+    {
+     "City": "Frauenfeld",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/fa\/20080507_1708MESZ_Schloss_Frauenfeld_1680x1050_HDR.jpg",
+     "Canton": "TG",
+     "E": 2713346.714490109,
+     "N": 1269356.627787973,
+     "Language": "de",
+     "Population": 25781
+    },
+    {
+     "City": "Weinfelden",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e7\/Weinfelden_Thurgau_02062005.jpg ",
+     "Canton": "TG",
+     "E": 2728110.124077383,
+     "N": 1270195.692429594,
+     "Language": "de",
+     "Population": 11602
+    },
+    {
+     "City": "Kreuzlingen",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/65\/Panoramakreuzlingen2.JPG ",
+     "Canton": "TG",
+     "E": 2732697.691827372,
+     "N": 1278073.364970038,
+     "Language": "de",
+     "Population": 22188
+    },
+    {
+     "City": "Lugano",
+     "Img link": "https:\/\/fr.wikipedia.org\/wiki\/Lugano#\/media\/Fichier:Lugano_from_Sighignola.jpg ",
+     "Canton": "TI",
+     "E": 2716805.890000001,
+     "N": 1095994.215999998,
+     "Language": "it",
+     "Population": 62615
+    },
+    {
+     "City": "Bellinzona",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/23\/Town_and_Castelgrande_castle_of_Bellinzona.jpg",
+     "Canton": "TI",
+     "E": 2723262.977065425,
+     "N": 1117423.982999999,
+     "Language": "it",
+     "Population": 43279
+    },
+    {
+     "City": "Locarno",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f5\/Locarno_porto_-_panoramio.jpg",
+     "Canton": "TI",
+     "E": 2704628.130391828,
+     "N": 1113268.137865718,
+     "Language": "it",
+     "Population": 15776
+    },
+    {
+     "City": "Lausanne",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b7\/Lausanne_img_0585.jpg\/1200px-Lausanne_img_0585.jpg",
+     "Canton": "VD",
+     "E": 2537956.365494896,
+     "N": 1152398.708000001,
+     "Language": "fr",
+     "Population": 139408
+    },
+    {
+     "City": "Yverdon-les-Bains",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/13\/Yverdon-les-Bains_vue_du_ciel.jpg",
+     "Canton": "VD",
+     "E": 2539038.140000001,
+     "N": 1181165.717999998,
+     "Language": "fr",
+     "Population": 30156
+    },
+    {
+     "City": "Montreux",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/fb\/Montreux_%28VD%29.jpg ",
+     "Canton": "VD",
+     "E": 2559582.155999999,
+     "N": 1142301.243000001,
+     "Language": "fr",
+     "Population": 25984
+    },
+    {
+     "City": "Sion",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c1\/Sion_depuis_Nax_-_2022.jpg\/1024px-Sion_depuis_Nax_-_2022.jpg",
+     "Canton": "VS",
+     "E": 2594412.868085659,
+     "N": 1122031.806040103,
+     "Language": "fr",
+     "Population": 34710
+    },
+    {
+     "City": "Monthey",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/0d\/Monthey.jpg\/1280px-Monthey.jpg ",
+     "Canton": "VS",
+     "E": 2551884.118999999,
+     "N": 1117479.545000002,
+     "Language": "fr",
+     "Population": 17894
+    },
+    {
+     "City": "Martigny",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4a\/Martigny_-_2022.jpg ",
+     "Canton": "VS",
+     "E": 2571782.749000002,
+     "N": 1105522.844000001,
+     "Language": "fr",
+     "Population": 18297
+    },
+    {
+     "City": "Neuchâtel",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/69\/Vuevilledeneuchatel.jpg ",
+     "Canton": "NE",
+     "E": 2558516.804271305,
+     "N": 1203525.202611874,
+     "Language": "fr",
+     "Population": 33493
+    },
+    {
+     "City": "La Chaux-de-Fonds",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/7a\/00_la-chaux-de-fonds.jpg",
+     "Canton": "NE",
+     "E": 2554034.675999999,
+     "N": 1217192.149,
+     "Language": "fr",
+     "Population": 37494
+    },
+    {
+     "City": "Le Locle",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/90\/00_le_locle1.jpg",
+     "Canton": "NE",
+     "E": 2547644.721000001,
+     "N": 1212133.999000002,
+     "Language": "fr",
+     "Population": 10101
+    },
+    {
+     "City": "Genève",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/ab\/Geneve_2005_001_Ork.ch.jpg ",
+     "Canton": "GE",
+     "E": 2500293.468411973,
+     "N": 1118468.787999999,
+     "Language": "fr",
+     "Population": 203951
+    },
+    {
+     "City": "Vernier",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e5\/Vernier_%28GE%29.jpg ",
+     "Canton": "GE",
+     "E": 2494441.27881095,
+     "N": 1119626.078792668,
+     "Language": "fr",
+     "Population": 34958
+    },
+    {
+     "City": "Lancy",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/2c\/Lancy-1.jpg ",
+     "Canton": "GE",
+     "E": 2498258.513,
+     "N": 1115400.475000001,
+     "Language": "fr",
+     "Population": 33377
+    },
+    {
+     "City": "Porrentruy",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4e\/Porrentruy_%28JU%29.jpg ",
+     "Canton": "JU",
+     "E": 2570598.302410765,
+     "N": 1251048.537764366,
+     "Language": "fr",
+     "Population": 6563
+    },
+    {
+     "City": "Delémont",
+     "Img link": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Panorama_Del%C3%A9mont_%28JU%29.jpg/1024px-Panorama_Del%C3%A9mont_%28JU%29.jpg?uselang=fr",
+     "Canton": "JU",
+     "E": 2594154.507110068,
+     "N": 1244547.169394123,
+     "Language": "fr",
+     "Population": 12566
+    },
+    {
+     "City": "Moutier",
+     "Img link": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/51\/Moutier_%28JU%29_2.jpg",
+     "Canton": "BE",
+     "E": 2594971.015000001,
+     "N": 1236623.838,
+     "Language": "fr",
+     "Population": 7385
+    }
+   ]
