@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <h1>Swissdle</h1>
-    <p>Guess the City!</p>
+    <h1 class="montserrat">Swissdle</h1>
+    <p class="lato guess-text">Guess the City!</p>
     <DailyCity />
     <SearchInput />
     <HintsDisplay/>
@@ -20,7 +20,7 @@ export default {
   name: 'App',
   data() {
     return {
-      apiBaseUrl: "http://localhost/api/",
+      apiBaseUrl: process.env.VUE_APP_API_ENDPOINT,
       apiGetDailyCity: "ville/today",
       apiGetCities: "villes",
     };
@@ -60,12 +60,23 @@ export default {
 </script>
 
 <style>
+@import 'styles/main.css';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
 }
+
+h1 {
+  margin: 0 !important;
+}
+
+.guess-text {
+  font-style: italic;
+}
+
 </style>

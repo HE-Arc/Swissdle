@@ -19,7 +19,7 @@ data_swiss_city_df['Ortschaftsname'] = data_swiss_city_df['Ortschaftsname'].str.
 merged_df = pd.merge(city_pics_df, data_swiss_city_df, left_on=city_pics_df.columns[0], right_on='Ortschaftsname')
 
 # Rename columns and drop unnecessary ones
-merged_df = merged_df.rename(columns={0: 'City', 1: 'Img link', 2: 'Img link 2', 'Kantonskürzel': 'Canton', 'Sprache': 'Language'}).drop(['Img link 2', 'Ortschaftsname', 'Zusatzziffer', 'Gemeindename', 'BFS-Nr', 'PLZ'], axis=1)
+merged_df = merged_df.rename(columns={0: 'City', 1: 'Img_link', 'Kantonskürzel': 'Canton', 'Sprache': 'Language'}).drop(['Ortschaftsname', 'Zusatzziffer', 'Gemeindename', 'BFS-Nr', 'PLZ'], axis=1)
 
 # Keep only the first occurrence of each city
 merged_df = merged_df.drop_duplicates(subset='City', keep='first')
