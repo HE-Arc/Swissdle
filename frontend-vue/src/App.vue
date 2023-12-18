@@ -4,6 +4,7 @@
     <p>Guess the City!</p>
     <DailyCity />
     <SearchInput />
+    <HintsDisplay/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import CityService from "./services/CityService";
 
 import DailyCity from './components/DailyCity.vue'
 import SearchInput from './components/SearchInput.vue';
+import HintsDisplay from './components/HintsDisplay.vue';
 
 export default {
   name: 'App',
@@ -26,6 +28,7 @@ export default {
   components: {
     DailyCity,
     SearchInput,
+    HintsDisplay
   },
   methods: {
     setDailyCity() {
