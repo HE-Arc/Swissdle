@@ -15,11 +15,6 @@ class CityComparator
         $guessedCity = Ville::with('canton')->
             where('id', $guessedId)->firstOrFail();
 
-        if($current->id == $guessedId)
-        {
-            return ['city' => $guessedCity];
-        }
-        
         return [
             'city' => $guessedCity,
             'canton_diff' =>  $current->canton_id == $guessedCity->canton_id ,
