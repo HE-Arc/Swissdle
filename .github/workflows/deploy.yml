@@ -5,6 +5,7 @@ on:
     branches:
       - 17_schedule_and_swagger
       - main
+      - dev
 
 jobs:
   deploy:
@@ -25,4 +26,4 @@ jobs:
         chmod 600 ~/.ssh/pkey
         eval "$(ssh-agent -s)"
         ssh-add ~/.ssh/pkey
-        ssh ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} -p ${{ secrets.SECRET_PORT }} "cd ./project/Swissdle && git pull origin main && cd backend-laravel && composer install && cd ../frontend-vue && npm install && npm run build && echo '* * * * * cd /home/laravel/project/Swissdle/backend-laravel && php artisan schedule:run >> /dev/null 2>&1' | crontab -"
+        ssh ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} -p ${{ secrets.SECRET_PORT }} "cd ./project/Swissdle && git pull origin main && cd backend-laravel && composer install && cd ../frontend-vue && npm install && npm run build && crontab -r && echo '* * * * * cd /home/laravel/project/Swissdle/backend-laravel && php artisan schedule:run >> /home/laravel/project/Swissdle/cron.log' | crontab -e"
