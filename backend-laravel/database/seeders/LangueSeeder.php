@@ -14,10 +14,10 @@ class LangueSeeder extends Seeder
     {
         $langues =
         [
-            ['name' => 'Français'],
-            ['name' => 'Suisse-Allemand'],
-            ['name' => 'Italien'],
-            ['name' => 'Romanche']
+            ['name' => 'Fr'],
+            ['name' => 'De'],
+            ['name' => 'It'],
+            ['name' => 'Ro']
         ];
 
         foreach ($langues as $langue)

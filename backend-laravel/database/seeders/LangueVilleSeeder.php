@@ -15,10 +15,10 @@ class LangueVilleSeeder extends Seeder
     {
         // mapping of the languages
         $languageLookup = [
-            'fr' => 'Français',
-            'de' => 'Suisse-Allemand',
-            'it' => 'Italien',
-            'ro' => 'Romanche'
+            'fr' => 'Fr',
+            'de' => 'De',
+            'it' => 'It',
+            'ro' => 'Ro'
         ];
 
         $json = file_get_contents("database/data/swissdle_data.json");
