@@ -1,39 +1,39 @@
 <template>
-    <div id="hints-display-component">
+    <div id="hints-display-component" v-show="guesses.length > 0">
         <div class="hint-titles">
             <div class="city-title title">
-                <p>City</p>
+                <p class="montserrat">City</p>
             </div>
             <div class="lang-title title">
-                <p>Lang</p>
+                <p class="montserrat">Lang</p>
             </div>
             <div class="canton-title title">
-                <p>Canton</p>
+                <p class="montserrat">Canton</p>
             </div>
             <div class="population-title title">
-                <p>Population</p>
+                <p class="montserrat">Population</p>
             </div>
             <div class="distance-title title">
-                <p>Distance</p>
+                <p class="montserrat">Distance</p>
             </div>
         </div>
         <template v-for="guess in guesses.slice().reverse()" :key="guess.city.id">
             <div class="hint" :class="(guess.city.name == nameDailyCity ?'good-guess' : 'bad-guess')">
                 <div class="city">
-                    <p>{{ guess.city.name }}</p>
+                    <p class="montserrat">{{ guess.city.name }}</p>
                 </div>
-                <div class="lang">
-                    <p>{{ guess.city.langues }}</p>
+                <div class="lang" :class="'hint-' + (guess.lang_diff == 0 ? '0' : '1')">
+                    <p class="montserrat">{{ guess.city.langues }}</p>
                 </div>
                 <div class="canton" :class="'hint-' + (guess.canton_diff ? '0' : '1')">
-                    <p>{{ guess.city.canton.name }}</p>
+                    <p class="montserrat">{{ guess.city.canton.name }}</p>
                 </div>
                 <div class="population">
-                    <p> {{ guess.city.population }}</p>
+                    <p class="montserrat"> {{ guess.city.population }}</p>
                     <DirectionalArrow :populationDiff="guess.pop_diff" v-if="guess.pop_diff != 0"/>
                 </div>
-                <div class="distance">
-                    <p>~{{ Math.round(guess.position_diff.distance) }}km</p>
+                <div class="distance hint-grey">
+                    <p class="montserrat">~{{ Math.round(guess.position_diff.distance) }}km</p>
                     <DirectionalArrow :angleToDailyCity="guess.position_diff.direction" v-if="guess.position_diff.distance != 0" />
                 </div>
             </div>
@@ -54,7 +54,7 @@ export default {
         };
     },
     components: {
-        DirectionalArrow
+        DirectionalArrow,
     },
     methods: {
     },
@@ -89,8 +89,12 @@ export default {
 .hint-titles > div {
     flex: 1;
     padding: 10px 5px;
-    margin: 10px 5px;
-    border-bottom: 1px solid black;
+}
+
+.hint-titles p {
+    font-size: 20px;
+    display: inline-block;
+    border-bottom: 2px solid black;
 }
 
 .hint.bad-guess div.city {
@@ -125,4 +129,9 @@ export default {
 
 .hint-yellow {
     background-color: #FAE46E;
-}</style>
+}
+
+.hint-grey{
+    background-color: #D9D9D9;
+}
+</style>
