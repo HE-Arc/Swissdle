@@ -20,7 +20,7 @@ export default {
   name: 'App',
   data() {
     return {
-      apiBaseUrl: "http://localhost/api/",
+      apiBaseUrl: process.env.VUE_APP_API_ENDPOINT,
       apiGetDailyCity: "ville/today",
       apiGetCities: "villes",
     };

@@ -27,7 +27,7 @@ export default {
     data() {
         return {
             selectedCity: "",
-            apiBaseUrl: "http://localhost/api/",
+            apiBaseUrl: process.env.VUE_APP_API_ENDPOINT,
             apiGetGuess: "ville/guess/",
             showDropdown: false,
         };
