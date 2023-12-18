@@ -37,6 +37,17 @@ const CityService = {
     return this.cities.value;
   },
 
+  removeCity(cityId) {
+    const index = this.cities.value.findIndex((city) => city.id === cityId);
+    if (index !== -1) {
+      this.cities.value.splice(index, 1);
+    } else {
+      console.warn(
+        `La ville avec l'ID ${cityId} n'a pas été trouvée dans la liste.`
+      );
+    }
+  },
+
   getGuesses() {
     return this.guesses.value;
   },
