@@ -13,21 +13,31 @@ class LangueVilleSeeder extends Seeder
      */
     public function run(): void
     {
-        $langues_villes = [
-            ['ville_id' => 1, 'langue_id' => 1],
-            ['ville_id' => 2, 'langue_id' => 2],
-            ['ville_id' => 3, 'langue_id' => 1],
-            ['ville_id' => 3, 'langue_id' => 2],
-            ['ville_id' => 4, 'langue_id' => 2]
-
+        // mapping of the languages
+        $languageLookup = [
+            'fr' => 'Fr',
+            'de' => 'De',
+            'it' => 'It',
+            'ro' => 'Ro'
         ];
 
-        foreach ($langues_villes as $langue_ville)
-        {
-            DB::table('langues_villes')->insert([
-                'ville_id' => $langue_ville['ville_id'],
-                'langue_id' => $langue_ville['langue_id']
-            ]);
+        $json = file_get_contents("database/data/swissdle_data.json");
+        $cities = json_decode($json);
+
+        foreach ($cities as $city) {
+            $cityId = DB::table('villes')->where('name', $city->City)->value('id');
+
+            // In case a city has multiple languages
+            $languages = explode('/', $city->Language);
+
+            foreach ($languages as $languageCode) {
+                $languageId = DB::table('langues')->where('name', $languageLookup[$languageCode])->value('id');
+
+                DB::table('langues_villes')->insert([
+                    'ville_id' => $cityId,
+                    'langue_id' => $languageId,
+                ]);
+            }
         }
     }
 }

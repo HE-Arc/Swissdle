@@ -12,40 +12,41 @@ class CantonSeeder extends Seeder
      */
     public function run(): void
     {
-        $cantons = 
+        $cantons =
         [
-            ['name' => 'Jura', 'img' => 'jura.png'],
-            ['name' => 'Zurich', 'img' => 'zurich.png'],
-            ['name' => 'Bern', 'img' => 'bern.png'],
-            ['name' => 'Lucerne', 'img' => 'lucerne.png'],
-            ['name' => 'Uri', 'img' => 'uri.png'],
-            ['name' => 'Schwyz', 'img' => 'schwyz.png'],
-            ['name' => 'Obwalden', 'img' => 'obwalden.png'],
-            ['name' => 'Nidwalden', 'img' => 'nidwalden.png'],
-            ['name' => 'Glarus', 'img' => 'glarus.png'],
-            ['name' => 'Zug', 'img' => 'zug.png'],
-            ['name' => 'Fribourg', 'img' => 'fribourg.png'],
-            ['name' => 'Solothurn', 'img' => 'solothurn.png'],
-            ['name' => 'Basel-Landschaft', 'img' => 'basel-landschaft.png'],
-            ['name' => 'Basel-Stadt', 'img' => 'basel-stadt.png'],
-            ['name' => 'Schaffhausen', 'img' => 'schaffhausen.png'],
-            ['name' => 'Appenzell Ausserrhoden', 'img' => 'appenzell-ausserrhoden.png'],
-            ['name' => 'Appenzell Innerrhoden', 'img' => 'appenzell-innerrhoden.png'],
-            ['name' => 'St. Gallen', 'img' => 'st-gallen.png'],
-            ['name' => 'Grisons', 'img' => 'grisons.png'],
-            ['name' => 'Aargau', 'img' => 'aargau.png'],
-            ['name' => 'Thurgau', 'img' => 'thurgau.png'],
-            ['name' => 'Ticino', 'img' => 'ticino.png'],
-            ['name' => 'Vaud', 'img' => 'vaud.png'],
-            ['name' => 'Valais', 'img' => 'valais.png'],
-            ['name' => 'Neuchâtel', 'img' => 'neuchatel.png'],
-            ['name' => 'Geneva', 'img' => 'geneva.png']
+            ['name' => 'Jura', 'abbrev' => 'JU', 'img' => 'jura.png'],
+            ['name' => 'Zurich', 'abbrev' => 'ZH', 'img' => 'zurich.png'],
+            ['name' => 'Bern', 'abbrev' => 'BE', 'img' => 'bern.png'],
+            ['name' => 'Lucerne', 'abbrev' => 'LU', 'img' => 'lucerne.png'],
+            ['name' => 'Uri', 'abbrev' => 'UR', 'img' => 'uri.png'],
+            ['name' => 'Schwyz', 'abbrev' => 'SZ', 'img' => 'schwyz.png'],
+            ['name' => 'Obwalden', 'abbrev' => 'OW', 'img' => 'obwalden.png'],
+            ['name' => 'Nidwalden', 'abbrev' => 'NW', 'img' => 'nidwalden.png'],
+            ['name' => 'Glarus', 'abbrev' => 'GL', 'img' => 'glarus.png'],
+            ['name' => 'Zug', 'abbrev' => 'ZG', 'img' => 'zug.png'],
+            ['name' => 'Fribourg', 'abbrev' => 'FR', 'img' => 'fribourg.png'],
+            ['name' => 'Solothurn', 'abbrev' => 'SO', 'img' => 'solothurn.png'],
+            ['name' => 'Basel-Landschaft', 'abbrev' => 'BL', 'img' => 'basel-landschaft.png'],
+            ['name' => 'Basel-Stadt', 'abbrev' => 'BS', 'img' => 'basel-stadt.png'],
+            ['name' => 'Schaffhausen', 'abbrev' => 'SH', 'img' => 'schaffhausen.png'],
+            ['name' => 'Appenzell Ausserrhoden', 'abbrev' => 'AR', 'img' => 'appenzell-ausserrhoden.png'],
+            ['name' => 'Appenzell Innerrhoden', 'abbrev' => 'AI', 'img' => 'appenzell-innerrhoden.png'],
+            ['name' => 'St. Gallen', 'abbrev' => 'SG', 'img' => 'st-gallen.png'],
+            ['name' => 'Grisons', 'abbrev' => 'GR', 'img' => 'grisons.png'],
+            ['name' => 'Aargau', 'abbrev' => 'AG', 'img' => 'aargau.png'],
+            ['name' => 'Thurgau', 'abbrev' => 'TG', 'img' => 'thurgau.png'],
+            ['name' => 'Ticino', 'abbrev' => 'TI', 'img' => 'ticino.png'],
+            ['name' => 'Vaud', 'abbrev' => 'VD', 'img' => 'vaud.png'],
+            ['name' => 'Valais', 'abbrev' => 'VS', 'img' => 'valais.png'],
+            ['name' => 'Neuchâtel', 'abbrev' => 'NE', 'img' => 'neuchatel.png'],
+            ['name' => 'Geneva', 'abbrev' => 'GE', 'img' => 'geneva.png']
         ];
 
         foreach ($cantons as $canton)
         {
             \App\Models\Canton::create(array(
                 'name' => $canton["name"],
+                'abbrev' => $canton["abbrev"],
                 'img' => $canton["img"]
             ));
         }

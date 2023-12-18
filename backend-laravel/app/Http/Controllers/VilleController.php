@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\Cycle;
+use App\Models\Ville;
+use App\Utility\CityComparator;
 
 class VilleController extends Controller
 {
@@ -40,5 +42,24 @@ class VilleController extends Controller
         }
 
         return $ville;
+    }
+
+    public function guess($id)
+    {
+        // TODO: clean id
+        $a = new CityComparator();
+        return $a->compareToToday($id);
+    }
+
+    public function all()
+    {
+        $villes = Ville::all();
+
+        if(!$villes)
+        {
+            return response()->json(['error' => 'Villes not found'], 404);
+        }
+
+        return response()->json($villes);
     }
 }
