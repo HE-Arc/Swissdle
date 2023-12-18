@@ -26,4 +26,4 @@ jobs:
         chmod 600 ~/.ssh/pkey
         eval "$(ssh-agent -s)"
         ssh-add ~/.ssh/pkey
-        ssh ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} -p ${{ secrets.SECRET_PORT }} "cd ./project/Swissdle && git pull origin main && cd backend-laravel && composer install && cd ../frontend-vue && npm install && npm run build && (crontab -l && crontab -r) || echo '* * * * * cd /home/laravel/project/Swissdle/backend-laravel && /usr/local/bin/php artisan schedule:run >> /home/laravel/project/Swissdle/cron.log' | crontab"
+        ssh ${{ secrets.SECRET_USER }}@${{ secrets.SECRET_HOST }} -p ${{ secrets.SECRET_PORT }} "cd ./project/Swissdle && git pull origin main && cd backend-laravel && composer install && php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider" && cd ../frontend-vue && npm install && npm run build && (crontab -l && crontab -r) || echo '* * * * * cd /home/laravel/project/Swissdle/backend-laravel && /usr/local/bin/php artisan schedule:run >> /home/laravel/project/Swissdle/cron.log' | crontab"
