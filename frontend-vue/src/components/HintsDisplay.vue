@@ -18,8 +18,8 @@
             </div>
         </div>
         <template v-for="guess in guesses.slice().reverse()" :key="guess.city.id">
-            <div class="hint">
-                <div class="city" :class="'hint-' + (Object.keys(guess).length > 1 ? '1' : '0')">
+            <div class="hint" :class="(guess.city.name == nameDailyCity ?'good-guess' : 'bad-guess')">
+                <div class="city">
                     <p>{{ guess.city.name }}</p>
                 </div>
                 <div class="lang">
@@ -30,15 +30,21 @@
                 </div>
                 <div class="population">
                     <p> {{ guess.city.population }}</p>
+                    <DirectionalArrow :populationDiff="guess.pop_diff" v-if="guess.pop_diff != 0"/>
                 </div>
-                <div class="distane">
-                    <p>{{ guess.city.coord }}</p>
+                <div class="distance">
+                    <p>~{{ Math.round(guess.position_diff.distance) }}km</p>
+                    <DirectionalArrow :angleToDailyCity="guess.position_diff.direction" v-if="guess.position_diff.distance != 0" />
                 </div>
             </div>
         </template>
     </div>
 </template>
 <script>
+// components
+import DirectionalArrow from '@/components/DirectionalArrow.vue';
+
+// services
 import CityService from "@/services/CityService";
 
 export default {
@@ -47,11 +53,17 @@ export default {
         return {
         };
     },
+    components: {
+        DirectionalArrow
+    },
     methods: {
     },
     computed: {
         guesses() {
             return CityService.getGuesses() ? CityService.getGuesses() : "";
+        },
+        nameDailyCity() {
+            return CityService.getDailyCity() ? CityService.getDailyCity().name : "";
         },
     },
     mounted() { }
@@ -62,19 +74,41 @@ export default {
     padding-top: 30px;
 }
 
-.hint, .hint-titles {
+.hint,
+.hint-titles {
     display: flex;
 }
 
-.hint div, .hint-titles div {
+.hint > div {
     flex: 1;
     border: 1px solid black;
     padding: 10px 5px;
     margin: 10px 5px;
 }
 
-.hint div p, .hint-titles div p {
+.hint-titles > div {
+    flex: 1;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border-bottom: 1px solid black;
+}
+
+.hint.bad-guess div.city {
+    background-color: #FD9696;
+}
+
+.hint.good-guess > div {
+    background-color: #83D881;
+}
+
+.hint div p,
+.hint-titles div p {
     margin: 0;
+}
+
+.distance, .population {
+    display: flex;
+    justify-content: center;
 }
 
 .hint-1 {
@@ -91,5 +125,4 @@ export default {
 
 .hint-yellow {
     background-color: #FAE46E;
-}
-</style>
+}</style>
