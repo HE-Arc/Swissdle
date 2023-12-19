@@ -33,6 +33,91 @@
                     }
                 }
             }
+        },
+        "/api/ville/guess/{id}": {
+            "get": {
+                "tags": [
+                    "Ville"
+                ],
+                "summary": "Get a guess for a city based on the provided ID.",
+                "description": "Retrieve information about the guessed city.",
+                "operationId": "getGuess",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "The ID of the guessed city.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "properties": {
+                                        "ville": {
+                                            "$ref": "#/components/schemas/Ville"
+                                        },
+                                        "canton_diff": {
+                                            "description": "Whether the guessed city's canton matches the current city's canton",
+                                            "type": "boolean"
+                                        },
+                                        "pop_diff": {
+                                            "description": "Population comparison result",
+                                            "type": "integer"
+                                        },
+                                        "lang_diff": {
+                                            "description": "Language comparison result",
+                                            "type": "string"
+                                        },
+                                        "position_diff": {
+                                            "description": "Position comparison result",
+                                            "type": "string"
+                                        }
+                                    },
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Ville not found"
+                    }
+                }
+            }
+        },
+        "/api/villes": {
+            "get": {
+                "tags": [
+                    "Ville"
+                ],
+                "summary": "Get all cities",
+                "description": "Retrieve information about all cities.",
+                "operationId": "getAll",
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Ville"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Ville not found"
+                    }
+                }
+            }
         }
     },
     "components": {
