@@ -3,8 +3,9 @@
     <h1 class="montserrat">Swissdle</h1>
     <p class="lato guess-text">Guess the City!</p>
     <DailyCity />
-    <SearchInput />
-    <HintsDisplay/>
+    <SearchInput v-show="!win" />
+    <WinText v-show="win" />
+    <HintsDisplay />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import CityService from "./services/CityService";
 import DailyCity from './components/DailyCity.vue'
 import SearchInput from './components/SearchInput.vue';
 import HintsDisplay from './components/HintsDisplay.vue';
+import WinText from './components/WinText.vue';
 
 export default {
   name: 'App',
@@ -28,7 +30,8 @@ export default {
   components: {
     DailyCity,
     SearchInput,
-    HintsDisplay
+    HintsDisplay,
+    WinText
   },
   methods: {
     setDailyCity() {
@@ -52,7 +55,13 @@ export default {
       }
     }
   },
+  computed: {
+    win() {
+      return CityService.getWin() ? CityService.getWin() : false;
+    },
+  },
   mounted() {
+    CityService.setWin(false);
     this.setDailyCity();
     this.setCities();
   }
@@ -78,5 +87,4 @@ h1 {
 .guess-text {
   font-style: italic;
 }
-
 </style>
