@@ -5,9 +5,14 @@ const CityService = {
   dailyCity: ref(null),
   cities: ref(null),
   guesses: ref([]),
+  win: ref(Boolean),
 
   setDailyCity(city) {
     this.dailyCity.value = city;
+  },
+
+  setWin(win) {
+    this.win.value = win;
   },
 
   setCities(cities) {
@@ -31,6 +36,10 @@ const CityService = {
 
   getDailyCity() {
     return this.dailyCity.value;
+  },
+
+  getWin() {
+    return this.win.value;
   },
 
   getCities() {

@@ -40,7 +40,10 @@ export default {
 
             try {
                 axios.get(this.apiBaseUrl + this.apiGetGuess + cityId).then((response) => {
-                    (CityService.addGuesses(response.data))
+                    (
+                        CityService.addGuesses(response.data),
+                        CityService.getDailyCity().id == response.data.city.id ? CityService.setWin(true) : "" 
+                    )
                 })
             } catch (err) {
                 alert(err);
