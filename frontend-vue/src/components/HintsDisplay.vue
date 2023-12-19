@@ -28,7 +28,11 @@
                 <div class="canton" :class="'hint-' + (guess.canton_diff ? '0' : '1')">
                     <p class="montserrat">{{ guess.city.canton.name }}</p>
                 </div>
-                <div class="population">
+                <div class="population" :class="{
+                    'hint-1': Math.abs(guess.city.population - populationDailyCity) > 50000,
+                    'hint-orange': Math.abs(guess.city.population - populationDailyCity) > 25000 && Math.abs(guess.city.population - populationDailyCity) <= 50000,
+                    'hint-yellow': Math.abs(guess.city.population - populationDailyCity) <= 25000
+                }">
                     <p class="montserrat"> {{ guess.city.population }}</p>
                     <DirectionalArrow :populationDiff="guess.pop_diff" v-if="guess.pop_diff != 0" />
                 </div>
@@ -75,6 +79,9 @@ export default {
         nameDailyCity() {
             return CityService.getDailyCity() ? CityService.getDailyCity().name : "";
         },
+        populationDailyCity() {
+            return CityService.getDailyCity() ? CityService.getDailyCity().population : "";
+        }
     },
     mounted() { }
 }
@@ -82,6 +89,7 @@ export default {
 <style scoped>
 #hints-display-component {
     padding-top: 30px;
+    margin-bottom: 30px;
 }
 
 .hint,
@@ -93,7 +101,7 @@ export default {
     flex: 1;
     border: 1px solid black;
     padding: 10px 5px;
-    margin: 10px 5px;
+    margin: 5px 5px;
 }
 
 .hint-titles>div {
@@ -102,7 +110,6 @@ export default {
 }
 
 .hint-titles p {
-    font-size: 20px;
     display: inline-block;
     border-bottom: 2px solid black;
 }
@@ -117,6 +124,7 @@ export default {
 
 .hint div p,
 .hint-titles div p {
+    font-size: 15px;
     margin: 0;
 }
 
