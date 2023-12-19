@@ -18,8 +18,8 @@ export default {
 </script>
 <style scoped>
 img {
-    width: 70%;
-    height: 50vh;
+    width: 55%;
+    height: 55vh;
     object-fit: cover;
     border-radius: 5px;
 }
